@@ -1,1 +1,0 @@
-# Ikt.11.d-Kedvenc_etel
