@@ -12,6 +12,8 @@ body{
     display: block;
     padding: 20px;
     gap: 10px;
+    margin: 20px;
+  color: #048ea0;
   }
   
   .card:last-child {
@@ -19,8 +21,10 @@ body{
   }
   
   .card-img {
-    display: flex;
+    display: contents;
     justify-content: center;
+    
+    
   }
   
   .card-title {
@@ -49,4 +53,12 @@ body{
   
   .card-link {
     font-size: 20px;
+  }
+
+  button{
+    padding: 10px 20px 10px 20px;
+  }
+
+  button:hover{
+    background-color: #95e1f048;
   }
