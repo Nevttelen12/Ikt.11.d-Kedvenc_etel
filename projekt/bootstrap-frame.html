@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        div.row>div.col-12.col-md-6.col-lg-4*3
+        Main.html váza
+    -->
+
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4" id="mezes"></div>
+        <div class="col-12 col-md-6 col-lg-4" id="tiramisu"></div>
+        <div class="col-12 col-md-6 col-lg-4" id="somloi"></div>
+    </div>
+
+
+    <!-- 
+        Saját oldal váza
+        div.container>(div.row#header>div.col-12>h1)+div.row#other>p#about+p#history+(div.row#mainbody>(div.col-12.col-lg-2>ul#ingredients>li)+(div.col-12.col-md-6>ol#preparation>li)+(div.col-12.col-md-6.col-lg-4>img.img-fluid))
+    -->
+
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-12">
+                <h1></h1>
+            </div>
+        </div>
+        <div class="row" id="other">
+            <p id="about"></p>
+            <p id="history"></p>
+            <div class="row" id="mainbody">
+                <div class="col-12 col-lg-2">
+                    <ul id="ingredients">
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6">
+                    <ol id="preparation">
+                        <li></li>
+                    </ol>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4"><img src="" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+
+
+</body>
+</html>
