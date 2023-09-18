@@ -1,3 +1,17 @@
 body{
     background: fixed linear-gradient(to right, #d9f8bd 24%, #63d873 75%);
 }
+
+.card{
+border: double 3px black;
+margin: auto;
+height: 250px;
+width: 250px;
+padding: 8px;
+}
+
+button{
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
