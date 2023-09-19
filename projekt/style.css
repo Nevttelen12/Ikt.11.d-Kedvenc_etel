@@ -62,3 +62,13 @@ body{
   button:hover{
     background-color: #95e1f048;
   }
+
+  footer{
+    letter-spacing: 3px;
+    text-align: center;
+  }
+
+  header{
+    text-align: center;
+    font-size: 250%;
+  }
