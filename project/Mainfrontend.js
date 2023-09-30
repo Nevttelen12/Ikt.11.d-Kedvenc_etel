@@ -5,7 +5,7 @@ const gparnet = document.getElementById("Etel");
 //get datas from the server
 //load datas
 const fhttp = new XMLHttpRequest();
-const furl='./MainData.js';
+const furl='./MainData.json';
 var fres = "";
 fhttp.open("GET", furl);
 fhttp.send();
@@ -33,17 +33,15 @@ fhttp2.onload = function() {
 
 
 function fdoStaff(){
-    fres.biom.forEach(element => {
+    fres.Main.forEach(element => {
 
         var tmp = ""
         tmp = fcard
         tmp = tmp.replace("#Class#",fres.general.Class)
         tmp = tmp.replace("#imgClass#",fres.general.imgClass)
         tmp = tmp.replace("#img#",element.inform.img)
-        tmp = tmp.replace("#card-title#",element.inform.card-title)
-        tmp = tmp.replace("#card-title2#",element.inform.card-title2)
-        tmp = tmp.replace("#card-subtitle#",element.inform.card-subtitle)
-        tmp = tmp.replace("#card-subtitle2#",element.inform.card-subtitle2)
+        tmp = tmp.replace("#cardtitle#",element.inform.cardtitle2)
+        tmp = tmp.replace("#cardsubtitle2#",element.inform.cardsubtitle2)
         tmp = tmp.replace("#link#",element.inform.link)
 
         gparnet.innerHTML += tmp
