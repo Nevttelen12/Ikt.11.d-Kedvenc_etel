@@ -1,9 +1,8 @@
 {
     "general": {
-        "Class": "card col-3",
+        "Class": "card col-12 col-md-5 col-lg-3",
         "imgClass": "card-img",
-        "cardtitle": "card-title",
-        "cardsubtitle": "card-subtitle"
+        "iclass":"img-fluid"
     },
     "Main": [
         {
@@ -16,21 +15,21 @@
             }
         },
         {
-            "name": "Mézes krémes",
+            "name": "Kókuszos-mézes kocka",
             "inform": {
-                "img": "./kepek/mezeskremes.png",
-                "cardtitle2": "Mézes krémes",
+                "img": "./kepek/kokuszkocka.png",
+                "cardtitle2": "Kókuszos-mézes kocka",
                 "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
-                "link":"./adam/adam.html"
+                "link":"./Niki/Niki.html"
             }
         },
         {
-            "name": "Mézes krémes",
+            "name": "Tiramisu",
             "inform": {
-                "img": "./kepek/mezeskremes.png",
-                "cardtitle2": "Mézes krémes",
+                "img": "./kepek/tiramisu.png",
+                "cardtitle2": "Tiramisu",
                 "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
-                "link":"./adam/adam.html"
+                "link":"./Zoli/Zoli.html"
             }
         }
     ]
