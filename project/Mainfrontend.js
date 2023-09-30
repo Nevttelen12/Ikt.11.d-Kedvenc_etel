@@ -40,7 +40,7 @@ function fdoStaff(){
         tmp = tmp.replace("#Class#",fres.general.Class)
         tmp = tmp.replace("#imgClass#",fres.general.imgClass)
         tmp = tmp.replace("#img#",element.inform.img)
-        tmp = tmp.replace("#cardtitle#",element.inform.cardtitle2)
+        tmp = tmp.replace("#cardtitle2#",element.inform.cardtitle2)
         tmp = tmp.replace("#cardsubtitle2#",element.inform.cardsubtitle2)
         tmp = tmp.replace("#link#",element.inform.link)
 
