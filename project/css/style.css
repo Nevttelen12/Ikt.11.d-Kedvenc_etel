@@ -1,5 +1,5 @@
 body{
-    background: fixed linear-gradient(to right, #d9f8bd 24%, #63d873 75%);
+    background: fixed linear-gradient(to right, rgba(177, 154, 118, 0.637)  24%, #684723 75%);
     height: max-content;
 }
 .card {
@@ -14,7 +14,9 @@ body{
     padding: 20px;
     gap: 10px;
     margin: 20px;
-  color: #048ea0;
+    color: #684723;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
   }
   
   .card:last-child {
@@ -32,12 +34,15 @@ body{
     font-size: 20px;
     font-weight: 500;
     text-align: center;
+    font-weight: bold;
   }
   
   .card-subtitle {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    font-style: italic;
+
   }
   
   .card-divider {
@@ -54,21 +59,23 @@ body{
   
   .card-link {
     font-size: 20px;
+    font-weight: bold;
   }
 
   button{
     padding: 10px 20px 10px 20px;
+    color: #684723;
   }
 
   button:hover{
-    background-color: #95e1f048;
+    background-color: #5c3f2648;
   }
 
   footer {
     width: 100%;
     background-color: #00000081;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     position: static;
     left: 0;
@@ -99,4 +106,9 @@ body{
     border: 2px dashed #3f3c3c;
     margin-bottom: 50px;
     
+  }
+
+  #ingredients{
+    border-right: #3f3c3c 2px solid;
+    padding-right: 15px;
   }
