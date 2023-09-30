@@ -2,6 +2,17 @@ body{
     background: fixed linear-gradient(to right, rgba(177, 154, 118, 0.637)  24%, #684723 75%);
     height: max-content;
 }
+h2{
+  text-align: center;
+    font-size: 300%;
+    color: #ffffffc4;
+    text-shadow: 
+        -1px -1px 0 rgb(231, 208, 75),
+        1px -1px 0 rgb(255, 123, 0),
+        -1px 1px 0 rgb(240, 216, 80), 
+        1px 1px 0 rgb(255, 123, 0);
+    font-family: 'Black Ops One', cursive;
+}
 .card {
     margin: auto;
     --main-color: #323232;
@@ -82,7 +93,7 @@ body{
     bottom: 0;
   }
 
-  p{
+  h1{
     margin-bottom: 0 !important;
   }
 

@@ -1,6 +1,6 @@
 //find gparnet class
 //const gparnet = document.querySelector('body');
-const gparnet = document.getElementById("Etel");
+const gparnet = document.getElementById("FoEtel");
 
 //get datas from the server
 //load datas

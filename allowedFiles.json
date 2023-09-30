@@ -9,7 +9,9 @@
     "bootstrap-frame.html",
     "MainCard.html",
     "MainData.json",
-    "Mainfrontend.js"
+    "Mainfrontend.js",
+    "dessertData.json",
+    "dessertfrontend.js"
     ],
     "iLocs":[
         "main.html"
