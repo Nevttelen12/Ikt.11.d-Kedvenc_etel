@@ -1,1 +1,2 @@
-powershell.exe node ./ikt-backend.js
+powershell.exe node ./ikt-backend.js 
+PAUSE
