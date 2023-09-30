@@ -1,19 +1,17 @@
 {
     "files":[
-    "Adam",
-    "oldalak",
+    "main.html",
+    "adam",
     "css",
     "kepek",
     "Niki",
     "Zoli",
     "bootstrap-frame.html",
-    "main.html",
     "MainCard.html",
     "MainData.json",
     "Mainfrontend.js"
     ],
     "iLocs":[
         "main.html"
-
     ]
 }
