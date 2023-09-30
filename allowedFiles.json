@@ -7,7 +7,10 @@
     "Niki",
     "Zoli",
     "bootstrap-frame.html",
-    "main.html"
+    "main.html",
+    "MainCard.html",
+    "MainData.json",
+    "Mainfrontend.js"
     ],
     "iLocs":[
         "main.html"
