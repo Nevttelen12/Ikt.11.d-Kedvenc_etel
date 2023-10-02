@@ -1,50 +1,50 @@
 //find gparnet class
 //const gparnet = document.querySelector('body');
-const dparnet = document.getElementById("dessert");
+const gparnet = document.getElementById("dessert");
 
 //get datas from the server
 //load datas
-const dhttp = new XMLHttpRequest();
-const durl='./dessertData.json';
-var dres = "";
-dhttp.open("GET", durl);
-dhttp.send();
+const fhttp = new XMLHttpRequest();
+const furl='./dessertData.json';
+var fres = "";
+fhttp.open("GET", furl);
+fhttp.send();
 
-dhttp.onload = function() {
-    dres = JSON.parse(dhttp.responseText)
-    loaddcard()
+fhttp.onload = function() {
+    fres = JSON.parse(fhttp.responseText)
+    loadfcard()
 }
 
 
 //load fcard
-const dhttp2 = new XMLHttpRequest();
-const durl2 = './MainCard.html';
-var dcard = "";
+const fhttp2 = new XMLHttpRequest();
+const furl2 = './MainCard.html';
+var fcard = "";
 
-function loaddcard(){
-    dhttp2.open("GET", durl2);
-    dhttp2.send();
+function loadfcard(){
+    fhttp2.open("GET", furl2);
+    fhttp2.send();
 }
 
-dhttp2.onload = function() {
-    dcard = dhttp2.responseText
-    ddoStaff()
+fhttp2.onload = function() {
+    fcard = fhttp2.responseText
+    fdoStaff()
 }
 
 
-function ddoStaff(){
-    dres.Main.forEach(element => {
+function fdoStaff(){
+    fres.Main.forEach(element => {
 
         var tmp = ""
-        tmp = dcard
-        tmp = tmp.replace("#Class#",dres.general.Class)
-        tmp = tmp.replace("#imgClass#",dres.general.imgClass)
+        tmp = fcard
+        tmp = tmp.replace("#Class#",fres.general.Class)
+        tmp = tmp.replace("#imgClass#",fres.general.imgClass)
+        tmp = tmp.replace("#iclass#",fres.general.iclass)
         tmp = tmp.replace("#img#",element.inform.img)
-        tmp = tmp.replace("#iclass#",dres.general.iclass)
         tmp = tmp.replace("#cardtitle2#",element.inform.cardtitle2)
         tmp = tmp.replace("#cardsubtitle2#",element.inform.cardsubtitle2)
         tmp = tmp.replace("#link#",element.inform.link)
 
-        dparnet.innerHTML += tmp
+        gparnet.innerHTML += tmp
     });
 }

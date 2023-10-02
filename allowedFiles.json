@@ -8,10 +8,10 @@
     "Zoli",
     "bootstrap-frame.html",
     "MainCard.html",
-    "MainData.json",
-    "Mainfrontend.js",
     "dessertData.json",
-    "dessertfrontend.js"
+    "dessertfrontend.js",
+    "foetelData.json",
+    "foetelfrontend.js"
     ],
     "iLocs":[
         "main.html"

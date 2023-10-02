@@ -11,25 +11,25 @@
                 "img": "./kepek/mezeskremes.png",
                 "cardtitle2": "Mézes krémes",
                 "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
+                "link":"./adam/foetel.html"
+            }
+        },
+        {
+            "name": "Mézes krémes",
+            "inform": {
+                "img": "./kepek/mezeskremes.png",
+                "cardtitle2": "Mézes krémes",
+                "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
                 "link":"./adam/adam.html"
             }
         },
         {
-            "name": "Kókuszos-mézes kocka",
+            "name": "Mézes krémes",
             "inform": {
-                "img": "./kepek/kokuszkocka.png",
-                "cardtitle2": "Kókuszos-mézes kocka",
+                "img": "./kepek/mezeskremes.png",
+                "cardtitle2": "Mézes krémes",
                 "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
-                "link":"./Niki/Niki.html"
-            }
-        },
-        {
-            "name": "Tiramisu",
-            "inform": {
-                "img": "./kepek/tiramisu.png",
-                "cardtitle2": "Tiramisu",
-                "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
-                "link":"./Zoli/Zoli.html"
+                "link":"./Zoli/desszert"
             }
         }
     ]
