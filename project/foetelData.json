@@ -15,12 +15,12 @@
             }
         },
         {
-            "name": "Mézes krémes",
+            "name": "Kantoni sült rizs",
             "inform": {
-                "img": "./kepek/mezeskremes.png",
-                "cardtitle2": "Mézes krémes",
+                "img": "./kepek/kantonirizs.jpeg",
+                "cardtitle2": "Kantoni sült rizs",
                 "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
-                "link":"./adam/adam.html"
+                "link":"./Niki/foetel.html"
             }
         },
         {
