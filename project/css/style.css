@@ -1,6 +1,10 @@
 body{
     background: fixed linear-gradient(to right, rgba(177, 154, 118, 0.637)  24%, #684723 75%);
     height: max-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 h2{
   text-align: center;
@@ -97,6 +101,7 @@ h2{
     position: static;
     left: 0;
     bottom: 0;
+    margin-top: auto;
   }
 
   h1{
