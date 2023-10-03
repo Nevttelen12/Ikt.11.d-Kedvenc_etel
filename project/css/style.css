@@ -8,15 +8,29 @@ body{
 }
 h2{
   text-align: center;
-    font-size: 300%;
-    color: #ffffffc4;
-    text-shadow: 
-        -1px -1px 0 rgb(231, 208, 75),
-        1px -1px 0 rgb(255, 123, 0),
-        -1px 1px 0 rgb(240, 216, 80), 
-        1px 1px 0 rgb(255, 123, 0);
-    font-family: 'Black Ops One', cursive;
+  font-size: 300%;
+  color: #ffffffc4;
+  text-shadow: 1px 1px 0 rgb(255, 123, 0);
+  font-family: 'Black Ops One', cursive;
+  padding-top: 10px;
+
 }
+
+#maintitle{
+  text-shadow: 
+  -1px -1px 0 rgb(231, 208, 75),
+  1px -1px 0 rgb(255, 123, 0),
+  -1px 1px 0 rgb(240, 216, 80), 
+  1px 1px 0 rgb(255, 123, 0);
+}
+
+#maintitle2{
+  background-color: #00000081;
+  text-shadow:   
+  -1px 1px 0 rgb(240, 216, 80), 
+  1px 1px 0 rgb(255, 123, 0);
+}
+
 .card {
     margin: auto;
     --main-color: #323232;
@@ -96,7 +110,7 @@ h2{
     width: 100%;
     background-color: #00000081;
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     text-align: center;
     position: static;
     left: 0;
@@ -105,20 +119,14 @@ h2{
   }
 
   h1{
-    margin-bottom: 0 !important;
     font-family: 'Black Ops One', cursive;
-    text-shadow: 
-        -1px -1px 0 rgb(231, 208, 75),
-        1px -1px 0 rgb(255, 123, 0),
-        -1px 1px 0 rgb(240, 216, 80), 
-        1px 1px 0 rgb(255, 123, 0);
+    text-shadow: 1px 1px 0 rgb(255, 123, 0);
   }
 
   header{
     text-align: center;
     font-size: 300%;
     color: #ffffffc4;
-    
     background-color: #00000081;
   }
 
