@@ -8,6 +8,49 @@
     <title>Mézes krémes</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://localhost:42069/">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Hozzávalók
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="nav-link" href="#ingredients">Hozzávalók</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#mezes_lapok_hozzavalok">Mézes lapok</a></li>
+                  <li><a class="dropdown-item" href="#toltelek_hozzavalok">Töltelék</a></li>
+                  <li><a class="dropdown-item" href="#cokolade_boritas_hozzavalok">Csokoládé borítás</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Elkészítés
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#preparation">Elkészítés</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#mezes_lapok">Mézes lapok</a></li>
+                    <li><a class="dropdown-item" href="#toltelek">A töltelék</a></li>
+                    <li><a class="dropdown-item" href="#preparation_t">Összeállítás</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            <!-- Ha nem kell akkor ki kell venni! -->
+            <form class="d-none d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            
+          </div>
+        </div>
+      </nav>
     <div class="container hatter">
         <div class="row" id="header">
             <div class="col-12">
@@ -23,7 +66,7 @@
                 <div class="col-12 col-lg-2">
                     <h2>Hozzávalók</h2>
                     <ul id="ingredients">
-                        <h3>A Mézes lapokhoz:</h3>
+                        <h3 id="mezes_lapok_hozzavalok">A Mézes lapokhoz:</h3>
                             <li>500 g finomliszt</li>
                             <li>150 g kristálycukor</li>
                             <li>1 db egész tojás</li>
@@ -33,7 +76,7 @@
                             <li>6 cl tej</li>
                             <li>csipet só</li>
                         
-                        <h3>A Grízes töltelékhez:</h3>
+                        <h3 id="toltelek_hozzavalok">A Grízes töltelékhez:</h3>
                             <li>1 liter tej</li>
                             <li>150 g búzadara (más néven gríz)</li>
                             <li>250 g vaj (esetleg sütőmargarin)</li>
@@ -42,7 +85,7 @@
                             <li>350 g sárgabarack lekvár</li>
                             <li>csipet só</li>
                         
-                        <h3>A csokoládé borításhoz:</h3>
+                        <h3 id="cokolade_boritas_hozzavalok">A csokoládé borításhoz:</h3>
                             <li>160 g étcsokoládé pasztilla vagy táblás étcsokoládé</li>
                             <li>2-3 cl olaj</li>
                         
@@ -53,7 +96,7 @@
                 <div class="col-12 col-md-6">
                     <h2>Elkészítés</h2>
                     <ol id="preparation">
-                        <h3>A Mézes lapok</h3>
+                        <h3 id="mezes_lapok">A Mézes lapok</h3>
                             <p>(Bár van olyan bolt ahol meg lehet venni, javasolt a tökéletes ízekért magunknak elkészíteni.)</p>
                             <li>A lisztet, a kristálycukrot, a szódabikarbónát és a csipet sót összekeverjük szárazon</li>
                             <li>Hozzáadjuk a sertés zsírt / margarint, és elkeverjük</li>
@@ -62,13 +105,13 @@
                             <li>4 egyenlő darabra osztjuk és a tepsink méretéhez megfelelőre nyújtjuk</li>
                             <li>laponként külön-külön kisütjük 180 C fokos sütőben alsó felső módozatban 7 perc alatt, de érdemes mellette maradni nehogy odaégjen (ha eltörik akkor alacsonyabb hőmérsékleten kell sütni a többit, ha használhatatlannak ítéljük, megszárítva durvára aprítva használható édes morzsának dió vagy mogyoró helyett)</li>
                     
-                        <h3>A töltelék</h3>
+                        <h3 id="toltelek">A töltelék</h3>
                         <li>A tejet egy edényben felmelegítjük kb 50-60C ra, egy csipet sót hozzáadunk. (Előtte érdemes az edényt egy kis hidegvízzel kiöblíteni, ez segít hogy ne édjen oda a tejbegríz)</li>
                         <li>Lassan öntve gyorsan kavarva hozzáadjuk a grízet, addíg kevergetjük, és főzzük amíg krémes nem lesz.</li>
                         <li>A vajat, porcukrot és a vaníliáscukrot egy másik edényben krémesre keverjük. (Ehez bár lehet gépi habverőt használni, érdemes megkezdeni egy kicsit egy kanállal, mert különben a gép szétteríti a porcukrot az egész helyiségben)</li>
                         <li>Végül belekeverjük a vajas krémet a tejbegrízbe</li>
 
-                        <h3>A sütemény összeállítása</h3>
+                        <h3 id="preparation_t">A sütemény összeállítása</h3>
                         
                         <li>A következő rétegrendben ajánlott elkészíteni:
                             <br>(teteje)
@@ -96,6 +139,8 @@
         <a href="https://annuskam.hu/wp-content/uploads/2022/04/f-mezeskremes-214-720x405.jpg">https://annuskam.hu/wp-content/uploads/2022/04/f-mezeskremes-214-720x405.jpg</a>
         <a href="https://www.youtube.com/watch?v=bPMX23_tw2o&pp=ygUObcOpemVzIGtyw6ltZXM%3D">https://www.youtube.com/watch?v=bPMX23_tw2o&pp=ygUObcOpemVzIGtyw6ltZXM%3D</a> - recept
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 <footer>
     <p>Az oldalt készítette: Szerencsi Ádám</p>
