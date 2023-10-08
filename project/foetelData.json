@@ -6,11 +6,11 @@
     },
     "Main": [
         {
-            "name": "Mézes krémes",
+            "name": "Mátrai borzas",
             "inform": {
                 "img": "https://www.mindmegette.hu/images/380/L/lead_L_klasszikus-matrai-borzaska.jpg",
-                "cardtitle2": "Mézes krémes",
-                "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
+                "cardtitle2": "Mátrai borzas",
+                "cardsubtitle2":"A mátrai borzas egy nagyon finom, eltelítő étel, elég 1-2 darab hogy még a következő főétkezéskor se legyen olyan éhes az ember igazán. (Ez azt is jelenti hogy enyhén hízlal, tehát érdemes vele vigyázni.) Könnyű elkészítani, bár egy kissé hosszadalmas.",
                 "link":"./adam/foetel.html"
             }
         },
