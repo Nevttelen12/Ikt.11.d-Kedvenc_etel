@@ -24,11 +24,11 @@
             }
         },
         {
-            "name": "Mézes krémes",
+            "name": "Tordai hagymás pecsenye",
             "inform": {
                 "img": "https://img.youtube.com/vi/FHX8OYtJUEU/maxresdefault.jpg",
-                "cardtitle2": "Mézes krémes",
-                "cardsubtitle2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit quae impedit optio voluptates enim assumenda placeat repellat amet ut, maiores, adipisci eveniet. Quis provident fuga accusantium atque, debitis cum?",
+                "cardtitle2": "Tordai hagymás pecsenye",
+                "cardsubtitle2":"Azoknak azoknak ajánlom, akik szeretik a gazdag és húsos ételeket, valamint az erdélyi hagyományos ízeket. Ez a fogás erőteljes ízekkel és sok hagymával készül, így azoknak is ideális választás, akik szeretik az aromás és fűszeres ételeket.",
                 "link":"./Zoli/foetel.html"
             }
         }
