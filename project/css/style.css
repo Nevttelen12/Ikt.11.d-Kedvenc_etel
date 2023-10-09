@@ -1,12 +1,14 @@
-body{
-    background: fixed linear-gradient(to right, rgba(177, 154, 118, 0.637)  24%, #684723 75%);
-    height: max-content;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  background: fixed linear-gradient(to right, rgba(177, 154, 118, 0.637) 24%, #684723 75%);
+  height: max-content;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
 
 }
-h2{
+
+h2 {
   text-align: center;
   font-size: 300%;
   color: #ffffffc4;
@@ -16,130 +18,149 @@ h2{
 
 }
 
-#maintitle{
-  text-shadow: 
-  -1px -1px 0 rgb(231, 208, 75),
-  1px -1px 0 rgb(255, 123, 0),
-  -1px 1px 0 rgb(240, 216, 80), 
-  1px 1px 0 rgb(255, 123, 0);
+#maintitle {
+  text-shadow:
+    -1px -1px 0 rgb(231, 208, 75),
+    1px -1px 0 rgb(255, 123, 0),
+    -1px 1px 0 rgb(240, 216, 80),
+    1px 1px 0 rgb(255, 123, 0);
 }
 
-#maintitle2{
+#maintitle2 {
   background-color: #00000081;
-  text-shadow:   
-  -1px 1px 0 rgb(240, 216, 80), 
-  1px 1px 0 rgb(255, 123, 0);
+  text-shadow:
+    -1px 1px 0 rgb(240, 216, 80),
+    1px 1px 0 rgb(255, 123, 0);
 }
 
 .card {
-    margin: auto;
-    --main-color: #323232;
-    width: auto;
-    height: auto;
-    border: 2px solid var(--main-color);
-    box-shadow: 4px 4px var(--main-color);
-    border-radius: 5px;
-    display: block;
-    margin-top: 20px;
-    margin-bottom:20px ;
-    color: #684723;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: auto;
+  --main-color: #323232;
+  width: auto;
+  height: auto;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  border-radius: 5px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #684723;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  }
-  
-  .card:last-child {
-    justify-content: flex-end;
-  }
-  
-  .card-img {
-    display: block;
-    justify-content: center;
-    object-fit: scale-down;
-    margin-top: 10px;
-    height: 200px !important;
-  }
-  
-  .card-img img{
-    width: 100%;
-    height: 100%;
-  }
-  
-  .card-title {
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .card-subtitle {
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    font-style: italic;
+}
 
-  }
-  
-  .card-divider {
-    width: 100%;
-    border: 1px solid var(--main-color);
-    border-radius: 50px;
-  }
-  
-  .card-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .card-link {
-    font-size: 20px;
-    font-weight: bold;
-    margin: auto;
-  }
+.card:last-child {
+  justify-content: flex-end;
+}
 
-  button{
-    padding: 10px 20px 10px 20px;
-    color: #684723;
-  }
+.card-img {
+  display: block;
+  justify-content: center;
+  object-fit: scale-down;
+  margin-top: 10px;
+  height: 200px !important;
+}
 
-  button:hover{
-    background-color: #5c3f2648;
-  }
+.card-img img {
+  width: 100%;
+  height: 100%;
+}
 
-  footer {
-    width: 100%;
-    background-color: #00000081;
-    color: #fff;
-    font-size: 23px;
-    text-align: center;
-    position: static;
-    left: 0;
-    bottom: 0;
-    margin-top: auto;
-  }
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  font-weight: bold;
+}
 
-  h1{
-    font-family: 'Black Ops One', cursive;
-    text-shadow: 1px 1px 0 rgb(255, 123, 0);
-  }
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+  height: 100%;
+}
 
-  header{
-    text-align: center;
-    font-size: 300%;
-    color: #ffffffc4;
-    background-color: #00000081;
-  }
+.card-divider {
+  width: 100%;
+  border: 1px solid var(--main-color);
+  border-radius: 50px;
+}
 
-  .hatter{
-    background-color: rgba(255, 255, 255, 0.61);
-    color: #3f3c3c;
-    padding: 0% 20%;
-    border: 2px dashed #3f3c3c;
-    margin-bottom: 50px;
-    
-  }
+.card-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:10px ;
+}
 
-  #ingredients{
-    border-right: #3f3c3c 2px solid;
-    padding-right: 15px;
-  }
+.card-link {
+  font-size: 20px;
+  font-weight: bold;
+  margin: auto;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  color: #684723;
+}
+
+button:hover {
+  background-color: #5c3f2648;
+}
+
+footer {
+  width: 100%;
+  background-color: #00000081;
+  color: #fff;
+  font-size: 23px;
+  text-align: center;
+  position: static;
+  left: 0;
+  bottom: 0;
+  margin-top: auto;
+}
+
+h1 {
+  font-family: 'Black Ops One', cursive;
+  text-shadow: 1px 1px 0 rgb(255, 123, 0);
+}
+
+header {
+  text-align: center;
+  font-size: 300%;
+  color: #ffffffc4;
+  background-color: #00000081;
+}
+
+.hatter {
+  background-color: rgba(255, 255, 255, 0.61);
+  color: #3f3c3c;
+  padding: 0% 20%;
+  border: 2px dashed #3f3c3c;
+  margin-bottom: 50px;
+
+}
+
+#ingredients {
+  border-right: #3f3c3c 2px solid;
+  padding-right: 50px;
+  box-sizing: border-box !important;
+  width: calc(100% + 25px);
+
+}
+
+#ingredients ul {
+  margin-left: 0 !important;
+  text-align: justify !important;
+}
+#maintitle2:first-of-type{
+  margin-top: 15px;
+}
+nav img{
+  width: 70px;
+}
