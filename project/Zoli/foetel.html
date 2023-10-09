@@ -11,16 +11,76 @@
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http://localhost:42069/">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Hozzávalók
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" href="#ingredients">Hozzávalók</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#mezes_lapok_hozzavalok">Mézes lapok</a></li>
+                                <li><a class="dropdown-item" href="#toltelek_hozzavalok">Töltelék</a></li>
+                                <li><a class="dropdown-item" href="#cokolade_boritas_hozzavalok">Csokoládé borítás</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Elkészítés
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#preparation">Elkészítés</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#mezes_lapok">Mézes lapok</a></li>
+                                <li><a class="dropdown-item" href="#toltelek">A töltelék</a></li>
+                                <li><a class="dropdown-item" href="#preparation_t">Összeállítás</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <!-- Ha nem kell akkor ki kell venni! --> 
+                    <form class="d-none d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container hatter">
         <div class="row" id="header">
             <div class="col-12">
-                <h1>Tiramisu</h1>
+                <h1>tordai hagymás pecsenye</h1>
             </div>
         </div>
         <div class="row" id="other">
             <div class="col-12">
-                <p id="about"></p>
-                <p id="history"></p>
+                <p id="about">Azoknak azoknak ajánlom, akik szeretik a gazdag és húsos ételeket, valamint az erdélyi
+                    hagyományos ízeket. Ez a fogás erőteljes ízekkel és sok hagymával készül, így azoknak is ideális
+                    választás, akik szeretik az aromás és fűszeres ételeket.</p>
+                <p id="history">A Tordai hagymás pecsenye (Erdélyi vásári pecsenye) erdélyi származású hagyományos étel,
+                    melynek eredete visszavezethető az erdélyi konyhába. A fogás fő összetevője sertéshús, amit vastagon
+                    szeletelve, majd hagymával és fűszerekkel kombinálnak. Az étel elkészítése során a hús hagymával
+                    sütőedényben sül, és az ízek különlegesen gazdagok és aromásak. A Tordai hagymás pecsenye az erdélyi
+                    gasztronómia egyik ikonikus étele és ma is szívesen fogyasztott hagyományos fogás.</p>
             </div>
             <div class="row" id="mainbody">
                 <div class="col-12 col-lg-2">
@@ -64,7 +124,7 @@
                     <p>Jó étvágyat!</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <img src="../kepek/mezeskremes.png" alt="Kép egy Mézes krémesről" class="img-fluid">
+                    <img src="../kepek/Tordai.jpg" alt="Kép egy Mézes krémesről" class="img-fluid">
                 </div>
             </div>
         </div>
