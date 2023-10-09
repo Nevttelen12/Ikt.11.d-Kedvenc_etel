@@ -12,6 +12,31 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="http://localhost:42069/">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#ingredients">Hozzávalók</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#preparation">Elkészítés</a>
+              </li>
+            </ul>
+            
+            <!-- Ha nem kell akkor ki kell venni! -->
+            <form class="d-none d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+          </div>
+        </div>
+      </nav>
     <div class="container hatter">
         <div class="row" id="header">
             <div class="col-12">
@@ -27,7 +52,7 @@
                 <div class="col-12 col-lg-2">
                     <h2>Hozzávalók</h2>
                     <ul id="ingredients">
-                        <li>6 dl hosszú szemű rizs (helyetteíthető bulgurral, ha egészségesebbre akarjuk készíteni)</li>
+                        <li>6 dl hosszú szemű rizs (helyettesíthető bulgurral, ha egészségesebbre akarjuk készíteni)</li>
                         <li>Vegeta (ízlés szerint)</li>
                         <li>1 fej vöröshagyma</li>
                         <li>4 gerezd fokhagyma</li>
@@ -53,7 +78,7 @@
                         <li>Miután megdinszteltük a hagymát, hozzá tesszük a sót, beleszórjuk a cukrot, és hagyjuk kicsit karamellizálódni.</li>
                         <li>Hozzáadjuk a kockázott bacont, majd ráöntjük a kínai főzőbort.</li>
                         <li>Szójaszósszal megbolondítjuk, majd a rizst és a rántottát is beleforgatjuk.</li>
-                        <li>Új hagymával díszíthetjük.</li>
+                        <li>Újhagymával díszíthetjük.</li>
                     </ol>
                     <p>Jó étvágyat!</p>
                 </div>
@@ -62,10 +87,10 @@
                 </div>
             </div>
         </div>
-        Források:
-        <a>
-            Családi recept</a>
+        Források: Családi receptgyűjtemény
     </div>
 </body>
-
+<footer>
+    <p>Az oldalt készítette: Pálinkás Nikolett</p>
+</footer>
 </html>
