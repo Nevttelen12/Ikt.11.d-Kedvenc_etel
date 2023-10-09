@@ -31,13 +31,17 @@ header {
 footer {
   width: 100%;
   background-color: #362b1eb7;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   position: static;
   margin-top: auto;
   color: #ffffffc4;
   text-shadow: 1px 1px 0 rgb(255, 123, 0);
   font-family: 'Black Ops One', cursive;
+}
+
+footer p{
+  margin: 0;
 }
 
 #maintitle {
@@ -53,6 +57,13 @@ footer {
   text-shadow:
     -1px 1px 0 rgb(240, 216, 80),
     1px 1px 0 rgb(255, 123, 0);
+}
+
+.sideimage{
+  border: 2px solid #3f3c3c;
+  width: auto;
+  max-block-size: 350px;
+  margin-top: 30%;
 }
 
 .card {
@@ -138,6 +149,8 @@ button:hover {
 .hatter {
   background-color: rgba(255, 255, 255, 0.61);
   color: #3f3c3c;
+  font-size: 120%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 0% 20%;
   border: 2px dashed #3f3c3c;
   margin-bottom: 50px;
