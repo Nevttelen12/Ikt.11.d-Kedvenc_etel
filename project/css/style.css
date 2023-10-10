@@ -52,7 +52,7 @@ footer p{
     1px 1px 0 rgb(255, 123, 0);
 }
 
-#maintitle2 {
+.maintitle2 {
   background-color: #00000081;
   text-shadow:
     -1px 1px 0 rgb(240, 216, 80),
@@ -169,7 +169,7 @@ button:hover {
   margin-left: 0 !important;
   text-align: justify !important;
 }
-#maintitle2:first-of-type{
+.maintitle2:first-of-type{
   margin-top: 15px;
 }
 nav img{
