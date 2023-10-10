@@ -44,6 +44,7 @@ function ddoStaff(){
         tmp = tmp.replace("#cardtitle2#",element.inform.cardtitle2)
         tmp = tmp.replace("#cardsubtitle2#",element.inform.cardsubtitle2)
         tmp = tmp.replace("#link#",element.inform.link)
+        tmp = tmp.replace("#alt#",element.inform.alt)
 
         dparnet.innerHTML += tmp
     });

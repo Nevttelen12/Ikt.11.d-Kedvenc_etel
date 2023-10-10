@@ -11,7 +11,8 @@
                 "img": "./kepek/mezeskremes.jpg",
                 "cardtitle2": "Mézes krémes",
                 "cardsubtitle2":"A mézes krémes egy nagyon finom édesség, akár süteménynek, akár tortának. Első elkészítése nehézkes lehet, de sokadjára már könnyű. Viszonylag gyorsan összerakható, de nehéz lehet kivárni azt az egy északát a hűtőben.",
-                "link":"./adam/desszert.html"
+                "link":"./adam/desszert.html",
+                "alt":""
             }
         },
         {
@@ -20,7 +21,8 @@
                 "img": "./kepek/kokuszkocka.jpg",
                 "cardtitle2": "Kókuszos-mézes kocka",
                 "cardsubtitle2":"Klasszikus desszert, melyet egyszerűen, alaphozzávalók segítségével elkészíthetünk. Eredetileg Angliából származik, mára már a magyar konyha is átvette. Azoknak ajánlom, akik szeretik a lágytésztás süteményeket, kókuszos finomságokat. Lehűtve fogyasztva a legfinomabb.",
-                "link":"./Niki/desszert.html"
+                "link":"./Niki/desszert.html",
+                "alt":""
             }
         },
         {
@@ -29,7 +31,8 @@
                 "img": "./kepek/tiramisu.jpg",
                 "cardtitle2": "Tiramisu",
                 "cardsubtitle2":"A tiramisut azoknak ajánlom, akik szeretik az édes és krémes desszerteket, és különösen azoknak, akik rajonganak a kávé ízéért. Ez a desszert különleges alkalmakra is kitűnő választás lehet, például családi összejövetelekhez. Az édes, krémes és kávés ízek kombinációja, a tiramisu egy igazi csemege, amely szinte mindenkit elkápráztat.",
-                "link":"./Zoli/desszert.html"
+                "link":"./Zoli/desszert.html",
+                "alt":""
             }
         }
     ]

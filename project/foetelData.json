@@ -11,7 +11,8 @@
                 "img": "https://www.mindmegette.hu/images/380/L/lead_L_klasszikus-matrai-borzaska.jpg",
                 "cardtitle2": "Mátrai borzas",
                 "cardsubtitle2":"A mátrai borzas egy nagyon finom, eltelítő étel, elég 1-2 darab hogy még a következő főétkezéskor se legyen olyan éhes az ember igazán. (Ez azt is jelenti hogy enyhén hízlal, tehát érdemes vele vigyázni.) Könnyű elkészíteni, bár kissé hosszadalmas.",
-                "link":"./adam/foetel.html"
+                "link":"./adam/foetel.html",
+                "alt":""
             }
         },
         {
@@ -20,7 +21,8 @@
                 "img": "./kepek/kantonirizs.jpeg",
                 "cardtitle2": "Kantoni sült rizs",
                 "cardsubtitle2":"Azoknak ajánlom, akik szeretik a kínai konyha ízvilágát. Mint ahogyan a neve is erre utal Kantonból származik. Megannyi féle elkészítési módja lehet, ebben a receptben az alap változata található meg.",
-                "link":"./Niki/foetel.html"
+                "link":"./Niki/foetel.html",
+                "alt":""
             }
         },
         {
@@ -29,7 +31,8 @@
                 "img": "https://img.youtube.com/vi/FHX8OYtJUEU/maxresdefault.jpg",
                 "cardtitle2": "Tordai hagymás pecsenye",
                 "cardsubtitle2":"Azoknak ajánlom, akik szeretik a gazdag és húsos ételeket, valamint az erdélyi hagyományos ízeket. Ez a fogás erőteljes ízekkel és sok hagymával készül, így azoknak is ideális választás, akik szeretik az aromás és fűszeres ételeket.",
-                "link":"./Zoli/foetel.html"
+                "link":"./Zoli/foetel.html",
+                "alt":""
             }
         }
     ]
