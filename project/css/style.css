@@ -193,3 +193,7 @@ a.dropdown-item, a.nav-link{
   text-shadow: none;
   font-family: 'Black Ops One', cursive;
 }
+.col-lg-5 p{
+  margin: 15px;
+  font-weight: bold;
+}
